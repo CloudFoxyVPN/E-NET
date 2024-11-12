@@ -63,61 +63,6 @@
     },
 
     {
-      "Name": "🟣 VIVO EASY[1] 🔛",
-      "FLAG": "vivo",
-      "Payload": "BASELINE-CONTROL ws://[app_host] HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.41",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-
-    {
-      "Name": "🟣 VIVO EASY[2] 🔛",
-      "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.37.248",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-
-    {
-      "Name": "🟣 VIVO EASY IPV4 🔛",
-      "FLAG": "vivo",
-      "Payload": "BASELINE-CONTROL ws://[app_host] HTTP/1.1[crlf]Host: assine.vivo.com.br[crlf]Proxy-Connection: Keep-Alive[crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "assine.vivo.com.br",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-
-    {
-      "Name": "🟣 VIVO CONTROLE[1] 🍀",
-      "FLAG": "vivo",
-      "Payload": "CLOUD-BRASIL wss://[app_host] HTTP/1.1[crlf]Host: playwaze.com [crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]CLOUD-BRASIL[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.26.5.32",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-
-    {
-      "Name": "🟣 VIVO CONTROLE[2] 🍀",
-      "FLAG": "vivo",
-      "Payload": "ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][instant_split][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.239.166",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-
-    {
       "Name": "🔵 TIM MAIS 🐾",
       "FLAG": "tim",
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: maisvantagenstim.com.br[crlf][crlf][instant_split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
@@ -129,7 +74,7 @@
     },
     
     {
-      "Name": "🔵 TIM BRASIL 🐾",
+      "Name": "🔵 TIM ADS 🐾",
       "FLAG": "tim",
       "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: revive.timrecompensas.com.br[crlf][crlf][instant_split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
       "SNI": "",
