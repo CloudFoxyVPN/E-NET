@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "ReleaseNotes": "Nova Atualização Disponível!",
   "UrlUpdate": "https://raw.githubusercontent.com/CloudFoxyVPN/E-NET/refs/heads/main/config.json",
   "Sms": "https://raw.githubusercontent.com/CloudFoxyVPN/E-NET/refs/heads/main/SMS.txt",
@@ -18,9 +18,9 @@
 
   "Servers": [
     {
-      "Name": "SERVIDOR - BR1 [ V 1.0.0 ]",
+      "Name": "SERVIDOR - BR1 [ V 1.0.1 ]",
       "TYPE": "premium",
-      "FLAG": "br.png",
+      "FLAG": "vps.png",
       "ServerIP": "level.c137.xyz",
       "CheckUser": "http://level.c137.xyz:1011/checkUser",
       "ServerPort": "22",
@@ -65,7 +65,7 @@
     {
       "Name": "🔵 TIM MAIS 🐾",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: maisvantagenstim.com.br[crlf][crlf][instant_split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: apf.maisvantagenstim.com.br[crlf][crlf][instant_split]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "162.159.140.159",
@@ -76,7 +76,7 @@
     {
       "Name": "🔵 TIM ADS 🐾",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: revive.timrecompensas.com.br[crlf][crlf][instant_split][crlf]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: portal.timrecompensas.com.br[crlf][crlf][instant_split]GET- / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.5.18",
@@ -85,9 +85,9 @@
     },
 
     {
-      "Name": "🔵 TIM CDN 🐾",
+      "Name": "🔵 TIM DATAMI 🐾",
       "FLAG": "tim",
-      "Payload": "GET /cdn-cgi/trace HTTP/1.1[lf]Host: vps.cloudmi.datami.com[crlf][crlf][instant_split][crlf]GET- /enet HTTP/1.1[crlf]Host: firewallfalcon.canaldotl.573357.xyz[crlf]Backend: enet[lf]Upgrade: Websocket[crlf][crlf]",
+      "Payload": "GET /cdn-cgi/trace HTTP/1.1[crlf]Host: vps.cloudmi.datami.com[crlf][crlf][instant_split]GET- /enet HTTP/1.1[crlf]Host: firewallfalcon.canaldotl.573357.xyz[crlf]Backend: enet[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "1.1.1.1",
