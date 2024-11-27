@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "Nova Atualização Disponível!",
   "UrlUpdate": "https://raw.githubusercontent.com/CloudFoxyVPN/E-NET/refs/heads/main/config.json",
   "Sms": "https://raw.githubusercontent.com/CloudFoxyVPN/E-NET/refs/heads/main/SMS.txt",
@@ -18,7 +18,7 @@
 
   "Servers": [
     {
-      "Name": "SERVIDOR - BR1 [ V 1.0.2 ]",
+      "Name": "SERVIDOR - BR1 [ V 1.0.3 ]",
       "TYPE": "premium",
       "FLAG": "vps.png",
       "ServerIP": "level.c137.xyz",
